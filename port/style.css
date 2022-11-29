@@ -1,0 +1,93 @@
+body {
+    background-color: #f8afa1;
+    font-family: Georgia;
+    background-image: url('./polka-dot-white-pink-pastel-soft-background-simple-small-pattern-cute-dots-decoration-backgrounds-fabric-textile-179704286.jpg');
+}
+
+h2{
+    position: relative;
+    margin-right: 17px;
+    top: -2vh;
+}
+
+.card {
+
+    background-color: white;
+    width: 65vw;
+    height: 80vh;
+    border-radius: 35px;
+
+}
+
+.eu {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 14vw;
+    bottom: 34vh;
+    border-radius: 100%;
+    border: double;
+    border-width: 8px;
+z-index: 1;
+}
+
+
+
+.texto {
+    position: relative;
+    top: 25vh;
+    right: 27vw;
+    border: 2px solid;
+    background-color: rgb(204, 247, 139);
+    width: 80px;
+    height:25px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.onome {
+    position: relative;
+    top: 27vh;
+    right: 19.5vw;
+}
+
+.sobremim {
+    position: relative;
+    top: 25vh;
+    text-align: justify;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px; 
+
+}
+
+.js{
+    position: relative;
+    left: 15vw;
+    bottom: 20vh;
+}
+
+
+
+.imagens{
+    position: relative;
+  bottom: 27vh;
+  left: 0vw;
+}
+
+@media screen and (max-width: 1000px){
+    body, img, .card {
+        background-color: #f8afa1;
+        font-family: Georgia;
+    }
+    
+}
+
+.card {
+    background-color: antiquewhite;
+    border-style: inset;
+    border-width: 7px;
+}
